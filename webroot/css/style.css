@@ -1,0 +1,242 @@
+body {
+	
+}
+.size1 { width:716px; }
+.size2 { width:350px; }
+.size3 { width:200px; }
+.size4 { width:150px; }
+.size5 { width:120px; }
+.size6 { width:100px; }
+.size7 { width:50px; }
+
+
+
+.navbar {
+	border-radius: 0;
+}
+
+
+body#login {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #acd2d2;
+  color:#fff;
+}
+
+body#login h2 {
+  color:#fff;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.list-group {
+	padding-top: 52px;
+}
+
+
+/*Letters */
+
+#letters 
+{
+ margin-bottom: 20px; 
+}
+
+#letters a 
+{
+  background-color: #33B1E9;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  float: left;
+  margin-top: 4px;
+  width: 30px;
+  height: 30px;
+  margin-right: 4px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+#letters a:hover, #letters a.active 
+{
+  color: #FFFFFF;
+  background-color: #F9D50F;
+}
+
+
+/* Decont */
+
+.paper .paperid {
+  
+	width: 180px;
+	height: 90px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	padding-top: 11px;
+	text-align: center;
+	padding-top: 25px;
+	font-size: 2.5em;
+	background-color: #EEA236;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.Draft_paperid {
+	width: 180px;
+	height: 90px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	padding-top: 12px;
+	text-align: center;
+	padding-top: 25px;
+	font-size: 2.5em;
+	background-color: #F9D200;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.Open_paperid {
+	width: 180px;
+	height: 90px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	padding-top: 12px;
+	text-align: center;
+	padding-top: 25px;
+	font-size: 2.5em;
+	background-color: #5ed53e;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.Draft {
+    color: #f9d200;
+    font-weight: bold;
+}
+
+.Open {
+    color: #66AA00;
+    font-weight: bold;
+}
+
+/*footer*/
+
+footer {
+	margin-top:30px;
+	padding-top:20px;
+	height:60px;
+	text-align: center;
+	background-color: #acd2d2;
+	color:#fff;	
+}
+
+/*tables*/
+
+tr.valid {
+	background-color: #5ed53e !important;
+}
+tr.draft {
+	background-color: #dedc41 !important;
+}
+
+
+/* format date */
+
+fieldset.date {
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  padding-bottom: .5em;
+  display: block;
+  border: none;
+}
+
+fieldset.date legend {
+  margin: 0;
+  padding: 0;
+  margin-top: .25em;
+  font-size: 100%;
+}
+
+
+fieldset.date label {
+  position: absolute;
+  top: -20em;
+  left: -200em;
+}
+
+fieldset.date select {
+margin: 0;
+padding: 0;
+font-size: 100%;
+display: inline;
+}
+
+span.inst {
+  font-size: 75%;
+  color: blue;
+  padding-left: .25em;
+}
+
+
+fieldset.date select:active,
+fieldset.date select:focus,
+fieldset.date select:hover
+{
+  border-color: gray;
+  background-color: lightyellow;
+}
+
+
+
+/******************************************************************
+ +Total Table
+******************************************************************/
+.total-table {
+  width: 200px;
+  float: right;
+  font-size: 1.1em;
+  color: #333333;
+  border-width: 0;
+  border-spacing: 0; /* cellspacing set to 0 in HTML */
+  margin: 0;
+}
+
+.totals {
+  text-align: left;
+}
